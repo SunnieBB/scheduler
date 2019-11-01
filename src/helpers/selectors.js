@@ -1,5 +1,5 @@
 export function getAppointmentsForDay(state, day) {
-  console.log("bope", day, state.days);
+  console.log("bope", day, state);
 
 
   const daysArr = state.days.filter(days => days.name === day);
