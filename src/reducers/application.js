@@ -14,7 +14,7 @@ export default function reducer(state, action) {
     case SET_INTERVIEW: {
       const appointment = {
         ...state.appointments[action.id],
-        interview: { ...action.interview }
+        interview: action.interview && { ...action.interview }
       };
 
       const appointments = {

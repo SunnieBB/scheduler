@@ -2,7 +2,7 @@ import React from "react";
 
 import "components/InterviewerList.scss";
 import InterviewerListItem from "components/InterviewerListItem";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default function InterviewList(props) {
   const interviewers = props.interviewers.map(interviewer => {
@@ -15,15 +15,15 @@ export default function InterviewList(props) {
         setInterviewer={event => props.onChange(interviewer.id)}
       />
     );
-  })
+  });
 
   return (
-      <section className="interviewers">
-        <h4 className="interviewers__header text--light">Interviewer</h4>
-        <ul className="interviewers__list">{interviewers}</ul>
-      </section>
+    <section className="interviewers">
+      <h4 className="interviewers__header text--light">Interviewer</h4>
+      <ul className="interviewers__list">{interviewers}</ul>
+    </section>
   );
-};
+}
 
 InterviewList.propTypes = {
   value: PropTypes.number,
