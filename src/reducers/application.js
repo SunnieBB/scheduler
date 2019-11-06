@@ -22,14 +22,6 @@ export default function reducer(state, action) {
         [action.id]: appointment
       };
 
-      // for (const day of {...state}.days) {
-      //   if (day.name === state.day) {
-      //     console.log(state.day)
-      //     day.spots += action.spot;
-
-      //   }
-      // }
-
       const days = state.days.map(day => {
         if (day.name === state.day) {
           return {
