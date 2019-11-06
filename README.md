@@ -2,9 +2,20 @@
 
 # Final Result
 
+## Project Layout
+
 !["Project Layout"](https://github.com/SunnieBB/scheduler/blob/master/gifs/layout.gif?raw=true)
+
+## Book An Appointment
+
 !["Book An Interview"](https://github.com/SunnieBB/scheduler/blob/master/gifs/book.gif?raw=true)
+
+## Edit An Appointment
+
 !["Edit An Appointment"](https://github.com/SunnieBB/scheduler/blob/master/gifs/edit.gif?raw=true)
+
+## Cancel An Appointment
+
 !["Delete An Appointment"](https://github.com/SunnieBB/scheduler/blob/master/gifs/delete.gif?raw=true)
 
 ## Setup
